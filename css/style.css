@@ -283,6 +283,16 @@ ul { list-style: none; }
 .card--service .card__title { margin-bottom: .4rem; }
 
 /* =====================
+   REVIEW CARDS
+   ===================== */
+.card--review { padding: 1.5rem; display: flex; flex-direction: column; gap: .75rem; }
+.card--review .card__stars { color: #f5a623; font-size: 1.1rem; letter-spacing: 2px; }
+.card--review .card__text { font-size: .93rem; color: var(--clr-gray); font-style: italic; flex: 1; }
+.card--review .card__author { display: flex; align-items: center; justify-content: space-between; margin-top: auto; }
+.card--review .card__name { font-weight: 600; font-size: .9rem; color: var(--clr-dark); }
+.card--review .card__google-icon { width: 20px; height: 20px; opacity: .7; }
+
+/* =====================
    STEPS
    ===================== */
 .steps {
