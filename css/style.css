@@ -582,6 +582,9 @@ ul { list-style: none; }
   padding: 1.25rem 0;
 }
 .footer__bottom p { font-size: .85rem; color: rgba(255,255,255,.4); text-align: center; }
+.footer__credit { font-size: .72rem; margin-top: .25rem; }
+.footer__credit a { color: rgba(255,255,255,.3); text-decoration: none; }
+.footer__credit a:hover { color: rgba(255,255,255,.6); }
 
 /* =====================
    PLACEHOLDER IMAGES
