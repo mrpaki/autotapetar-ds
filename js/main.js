@@ -1,3 +1,5 @@
+document.getElementById('footer-year').textContent = new Date().getFullYear();
+
 // Mobile nav toggle
 const toggle = document.querySelector('.nav-toggle');
 const nav    = document.querySelector('.nav');
