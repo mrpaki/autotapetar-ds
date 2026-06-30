@@ -288,9 +288,9 @@ ul { list-style: none; }
 .card--review { padding: 1.5rem; display: flex; flex-direction: column; gap: .75rem; }
 .card--review .card__stars { color: #f5a623; font-size: 1.1rem; letter-spacing: 2px; }
 .card--review .card__text { font-size: .93rem; color: var(--clr-gray); font-style: italic; flex: 1; }
-.card--review .card__author { display: flex; align-items: center; justify-content: space-between; margin-top: auto; }
-.card--review .card__name { font-weight: 600; font-size: .9rem; color: var(--clr-dark); }
-.card--review .card__google-icon { width: 20px; height: 20px; opacity: .7; }
+.card--review .card__author { display: flex; align-items: center; justify-content: space-between; margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--clr-border, #eee); }
+.card--review .card__name { font-weight: 600; font-size: .9rem; color: var(--clr-dark); order: 2; }
+.card--review .card__google-icon { width: 20px; height: 20px; opacity: .7; order: 1; }
 
 /* =====================
    STEPS
