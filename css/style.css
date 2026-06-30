@@ -106,7 +106,7 @@ ul { list-style: none; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 68px;
+  height: 76px;
 }
 
 .logo {
@@ -114,6 +114,13 @@ ul { list-style: none; }
   font-weight: 800;
   letter-spacing: -.5px;
   color: var(--clr-dark);
+  display: flex;
+  align-items: center;
+}
+.logo__img {
+  height: 76px;
+  width: auto;
+  display: block;
 }
 .logo--light { color: var(--clr-white); }
 .logo__accent { color: var(--clr-primary); }
