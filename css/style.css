@@ -123,6 +123,11 @@ ul { list-style: none; }
   display: block;
 }
 .logo--light { color: var(--clr-white); }
+.logo__img-footer {
+  height: 90px;
+  width: auto;
+  display: block;
+}
 .logo__accent { color: var(--clr-primary); }
 
 .nav {
